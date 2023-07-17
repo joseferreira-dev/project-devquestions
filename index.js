@@ -7,14 +7,11 @@ app.set('views', './src/views');
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-  let name = 'José Ferreira';
-  let lang = 'Python';
-  res.render('index', {
-    name,
-    lang,
-    empresa: 'IFPB',
-    inscritos: 2000,
-  });
+  res.render('index', {});
+});
+
+app.get('/ask', (req, res) => {
+  res.render('ask', {});
 });
 
 app.listen(3000, () => {
