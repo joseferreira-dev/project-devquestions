@@ -1,0 +1,26 @@
+{
+  "name": "devquestions",
+  "version": "1.0.0",
+  "description": "A question and answer platform similar to Yahoo!",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseferreira-dev/project-devquestions.git"
+  },
+  "author": "José Ferreira (https://github.com/joseferreira-dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joseferreira-dev/project-devquestions/issues"
+  },
+  "homepage": "https://github.com/joseferreira-dev/project-devquestions#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
